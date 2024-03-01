@@ -13,4 +13,4 @@ public class exer1{
         System.out.println("Digite o terceiro valor")
         n3 = grava.nextDouble();
     }
-}
+t
