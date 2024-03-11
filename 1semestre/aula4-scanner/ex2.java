@@ -9,7 +9,8 @@ Scanner gravar = new  Scanner(System.in);  // Cria a função "gravar"  para arm
 String nome ; // Cria variavel "nome" do tipo String
 int idade;  // Cria  variavel "idade" do tipo inteiro
 
-System.out.print("Escreva seu nome: "); // Mostra informação na tela
+int v;
+    v = read.nextInt(); // Mostra informação na tela
 nome = gravar.nextLine(); // Armazena resposta na variavel "nome"
 
 System.out.print("Escreva sua idade: "); // Mostra informação na tela

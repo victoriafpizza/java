@@ -3,7 +3,7 @@
 Neste artigo abordaremos como utilizar a classe que permite uma interação com o usuário. O Scanner é bem poderoso, com ele dá pra capturar não so o que é digitado no teclado mas também até a posição do mouse, Veremos agora como utilizar a classe Scanner do pacote java.util.Scanner; .
 Pra começo de tudo, antes de mais nada você deve importar a classe. Fazemos isso da seguinte maneira:
 
-    *import  java.util.Scanner;*
+    *import java.util.Scanner;*
 
 Depois de importar a classe, no metodo principal(onde tem o main ) devemos instanciar o objeto, ou seja, temos q tipo ‘clonar’ o objeto Scanner pois não se pode manipular ele direto da JVM. Entao fazemos o seguinte:
 

@@ -5,10 +5,7 @@ segundo e terceiro bimestre e de como resultado a seguinte informação :
 
 O Aluno (nome) teve como média a nota (média)
 
-
-
 2) Crie uma classe que solicite via teclado , um determinado valor em reais e como resultado mostre
-
 10%  de (valor) é (resultado)
 
 
