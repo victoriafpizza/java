@@ -5,8 +5,6 @@ public class Filme {
     private String nome;
     private String genero;
     private int duracao;
-
-    // Métodos construtores, getters e setters podem ser adicionados aqui
 }
 
 class CategoriaFilme {
