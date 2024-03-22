@@ -1,22 +1,5 @@
 import javax.swing.JOptionPane;
 
-public class Filme {
-    private int codigo;
-    private String nome;
-    private String genero;
-    private int duracao;
-}
-
-class CategoriaFilme {
-    private int codigo;
-    private double valorLocacao;
-}
-
-class Fita {
-    private int codigo;
-    private String dataCompra;
-}
-
 public class Main {
     public static void main(String[] args) {
         cadastrarFilmes();
@@ -26,7 +9,14 @@ public class Main {
         boolean continuarCadastro = true;
 
         while (continuarCadastro) {
-            cadastrarFilme();
+            String codigo = JOptionPane.showInputDialog("Digite o código do filme:");
+            String nome = JOptionPane.showInputDialog("Digite o nome do filme:");
+            String genero = JOptionPane.showInputDialog("Digite o gênero do filme:");
+            String duracao = JOptionPane.showInputDialog("Digite a duração do filme");
+
+            String filmeInfo = "Código: " + codigo + "\nNome: " + nome + "\nGênero: " + genero + "\nDuração: " + duracao;
+
+            JOptionPane.showMessageDialog(null, "Filme cadastrado com sucesso:\n" + filmeInfo);
 
             int opcao = JOptionPane.showConfirmDialog(null, "Deseja cadastrar outro filme?", "Continuar Cadastro", JOptionPane.YES_NO_OPTION);
 
@@ -34,20 +24,5 @@ public class Main {
                 continuarCadastro = false;
             }
         }
-    }
-
-    public static void cadastrarFilme() {
-        String codigo = JOptionPane.showInputDialog("Digite o código do filme:");
-        String nome = JOptionPane.showInputDialog("Digite o nome do filme:");
-        String genero = JOptionPane.showInputDialog("Digite o gênero do filme:");
-        String duracao = JOptionPane.showInputDialog("Digite a duração do filme:");
-
-        Filme filme = new Filme();
-        filme.setCodigo(Integer.parseInt(codigo));
-        filme.setNome(nome);
-        filme.setGenero(genero);
-        filme.setDuracao(Integer.parseInt(duracao));
-
-        JOptionPane.showMessageDialog(null, "Filme cadastrado com sucesso:\n" + filme.toString());
     }
 }
