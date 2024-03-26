@@ -10,12 +10,10 @@ E DEPOIS QUANTOS DIAS TEM NO MÊS , POR FIM MOSTRE NA TELA O VALOR GASTO (RESULT
     cada um desses componentes para se obter uma certa quantidade de latão (requerida pelo 
     usuário).
 
-
-
 5) Para ler dois valores reais do teclado, calcular e imprimir na tela: 
-     a) A soma destes valores
-     b) O produto deles    
-     c) O quociente entre eles
+     a  A soma destes valores
+     b  O produto deles    
+     c  O quociente entre eles
 
 
 6) Escrever um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no
