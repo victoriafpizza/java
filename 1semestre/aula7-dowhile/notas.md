@@ -46,7 +46,7 @@ while, pois a comparação só será feita após todo o código ter sido executa
             // Lê continuamente até o usuário informar 0
             do{
             // efetua a próxima leitura
-            String str = JOptionPane.showInputDialog(null,
+            String str = JOptionPane.showInputDialog(null, 
                 "Informe um valor inteiro:\n(ou 0 para sair)",
                 "Estudos", JOptionPane.QUESTION_MESSAGE);
 
