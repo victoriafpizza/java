@@ -21,3 +21,10 @@ import javax.swing.JOptionPane;
             "Estudos", JOptionPane.INFORMATION_MESSAGE);
         }
     }
+
+    //Lista das coisas que eu não sei usar (e não sei para que elas servem)
+    // - JOptionPane
+    // - showMessageDialog
+    // null
+
+    // Não esquece de adcionar as listas de exercicios 
