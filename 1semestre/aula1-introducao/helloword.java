@@ -1,4 +1,4 @@
-public class HelloWord{
+public class HelloWord {
     public statistic void main (String[] args){
         int valor = 90, valor2, valor3;
         double val1 = 1.98, val2, val3 = 34768;
